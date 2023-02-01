@@ -9113,7 +9113,8 @@ body {
 
 @media screen and (max-width: 767px) {
   .featured-box .content-holder h4 {
-    font-size: 22px;
+    font-size: 17px;
+    letter-spacing: 0px;
   }
 }
 

@@ -9884,6 +9884,11 @@ video.full-width {
   color: #240022;
   text-transform: uppercase;
 }
+@media screen and (max-width: 767px) {
+  .play-games-holder .game-box .content-holder h4 {
+    font-size: 14px;
+  }
+}
 .about-section{
   padding-right: 35px;
 }
@@ -9934,6 +9939,11 @@ video.full-width {
   text-align: center;
   bottom: 0;
   border: 1px solid #e8e8e8;
+}
+@media screen and (max-width: 767px) {
+  .trophy-holder .game-box{
+    margin-bottom: 30px;
+  }
 }
 .trophy-holder .game-box .image-holder {
   margin-bottom: 15px;

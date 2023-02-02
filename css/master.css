@@ -9991,6 +9991,20 @@ video.full-width {
   .trophy-holder .margin-bottom-30{
     margin-bottom: 10px !important;
   }
+  .teams-section .row{
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+  .teams-section .col-sm-6, .teams-section .col-xs-6{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .teams-section .margin-bottom-30{
+    margin-bottom: 10px !important;
+  }
+  .teams-section .featured-box{
+    margin-bottom: 10px !important;
+  }
   .slider-holder{
     margin: 0 15px;
   }

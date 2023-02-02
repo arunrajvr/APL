@@ -9890,8 +9890,73 @@ video.full-width {
 .about-section .content-holder{
   margin-bottom: 25px;
 }
+
 .about-section .content-holder strong{
   display: block;
+}
+.modal-header{
+  height: auto !important
+}
+.modal-header .close{
+  margin-top: -5px;
+}
+.modal-header h4{
+  font-size: 18px;
+  font-family: Graphik;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  color: #240022;
+  text-transform: uppercase;
+  line-height: 16px;
+}
+.modal-header{
+  padding: 20px 35px;
+}
+.modal-body{
+  padding: 35px;
+}
+.modal-body .content-holder strong{
+  display: block;
+}
+.modal-body .content-holder{
+  margin-bottom: 25px;
+}
+
+.modal-body .content-holder:last-child{
+  margin-bottom: 0;
+}
+
+.trophy-holder .game-box{
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px 15px;
+  text-align: center;
+  bottom: 0;
+  border: 1px solid #e8e8e8;
+}
+.trophy-holder .game-box .image-holder {
+  margin-bottom: 15px;
+}
+.trophy-holder .game-box .image-holder img {
+  max-width: 100px;
+  margin: 0 auto;
+}
+.trophy-holder .game-box .content-holder h4 {
+  font-size: 18px;
+  font-family: Graphik;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  color: #240022;
+  text-transform: uppercase;
+}
+.trophy-holder .game-box .content-holder p {
+  font-family: Graphik;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #333;
 }
 
 /*# sourceMappingURL=master.css.map */

@@ -9650,7 +9650,7 @@ footer .copyright-holder .footer-logo img {
 
 @media screen and (max-width: 767px) {
   .slider-holder .owl-carousel .owl-prev {
-    left: 10px;
+    left: -25px;
   }
 }
 
@@ -9661,7 +9661,7 @@ footer .copyright-holder .footer-logo img {
 
 @media screen and (max-width: 767px) {
   .slider-holder .owl-carousel .owl-next {
-    right: 10px;
+    right: -25px;
   }
 }
 
@@ -9942,7 +9942,7 @@ video.full-width {
 }
 @media screen and (max-width: 767px) {
   .trophy-holder .game-box{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 }
 .trophy-holder .game-box .image-holder {
@@ -9967,6 +9967,33 @@ video.full-width {
     line-height: 1.63;
     letter-spacing: normal;
     color: #333;
+}
+@media screen and (max-width: 767px) {
+  .play-games-holder .row{
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+  .play-games-holder .col-sm-6, .play-games-holder .col-xs-6{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .play-games-holder .margin-bottom-30{
+    margin-bottom: 10px !important;
+  }
+  .trophy-holder .row{
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+  .trophy-holder .col-sm-6, .trophy-holder .col-xs-6{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .trophy-holder .margin-bottom-30{
+    margin-bottom: 10px !important;
+  }
+  .slider-holder{
+    margin: 0 15px;
+  }
 }
 
 /*# sourceMappingURL=master.css.map */
